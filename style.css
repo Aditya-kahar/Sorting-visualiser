@@ -1,0 +1,93 @@
+ #gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  font-size: 50px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+
+}
+  
+ 
+*{
+    margin: 0px;
+}
+body{
+    background-color:aliceblue ;
+    margin-bottom: 30px;
+    
+}
+.a{
+   text-align: center;
+}
+button{
+    background-color:aliceblue ;
+    border: solid 2px black;
+    border-radius: 10%;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+}
+ button:hover {
+    background-color: rgb(233, 114, 131);
+    transition: 0.5s;
+    box-shadow: none;
+}   
+    
+
+.bol{
+  
+    font-size:27px;
+    
+    margin: 30px;
+
+}
+.c{
+    display: flex;
+    justify-content: center;
+    align-items: end;height: 15vh;
+    gap: 60px;
+}
+
+
+.d{
+  margin-top: px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.bartan{
+  
+  width: 30%;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: #d8ccdd;
+  border: 2px solid #d8ccdd;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+
+}
+.baritem{
+  background-color: #00adb5;
+  margin: 0 2px;
+  border-radius: 3px 3px 0 0;
+  transition: height 0.2s ease;
+ transition:  background-color 0.2s ease;
+}
